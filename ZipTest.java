@@ -39,6 +39,7 @@ public class ZipTest {
 		ZipInputStream zipStream = new ZipInputStream(new ByteArrayInputStream(
 				bytes));
 
+// bug fix done for ASPREG-1333
 		ByteArrayOutputStream streamBuilder = new ByteArrayOutputStream();
 		int bytesRead;
 		byte[] tempBuffer = new byte[8192 * 2];
