@@ -51,6 +51,8 @@ public class ZipTest {
 
 		}
 		return streamBuilder.toString();
+		
+		//verified changes
 	}
 
 	private byte[] zipMethod(String str) {
